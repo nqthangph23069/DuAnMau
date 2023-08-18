@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mQLPM"
+        android:title="quan ly phieu muon"
+        android:icon="@drawable/ic_pm"/>
+    <item
+        android:icon="@drawable/ic_menubook"
+        android:id="@+id/mQLLS"
+        android:title="quan ly loai sach"/>
+    <item
+        android:icon="@drawable/ic_book"
+        android:id="@+id/mQLS"
+        android:title="quan ly sach"/>
+    <item
+        android:id="@+id/mQLTV"
+        android:title="quan ly thanh vien"
+        android:icon="@drawable/ic_people"/>
+    <item
+        android:title="thong ke">
+        <menu>
+            <item
+                android:id="@+id/mTop10"
+                android:title="top 10 sach ban nhieu nhat"
+                android:icon="@drawable/ic_top10"/>
+            <item
+                android:id="@+id/mDoanhThu"
+                android:title="doanh thu"
+                android:icon="@drawable/ic_coin"/>
+        </menu>
+    </item>
+    <item
+        android:title="nguoi dung">
+        <menu>
+            <item
+                android:id="@+id/mDoimk"
+                android:title="doi mat khau"
+                android:icon="@drawable/ic_pass"/>
+            <item
+                android:id="@+id/mThoat"
+                android:title="Thoat"
+                android:icon="@drawable/ic_out"/>
+        </menu>
+    </item>
+</menu>

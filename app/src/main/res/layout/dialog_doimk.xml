@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doi mat khau"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/edtOldPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhap mat khau cu"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/edtNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhap mat khau moi"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/edtRenewpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhap lai mat khau"/>
+</LinearLayout>
